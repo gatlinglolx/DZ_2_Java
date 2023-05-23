@@ -10,8 +10,8 @@ public class Task1 {
     public static void main(String[] args) throws Exception {
         String [] list = lib.ReadLineFromFile("dataForTask1.txt"); 
         System.out.println(list[0]); 
-        StringBuilder SB = LineInList(list[0]);
-        System.out.println(SB);
+        StringBuilder sb = LineInList(list[0]);
+        System.out.println(sb);
     }
 
     public static StringBuilder LineInList(String line) {
