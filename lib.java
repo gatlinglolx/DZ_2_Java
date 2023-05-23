@@ -15,10 +15,9 @@ public class lib {
         while ((str = br1.readLine()) != null) {
             listData[i] = str;
             i += 1;
-            }
+        }
         br1.close();
         return listData;
-    
     }   
 
     public static void printArrayInt(int[] arr) {
